@@ -1,2 +1,12 @@
 <h1>Title</h1>
-{{$hello}}
+
+
+
+@foreach($names as $name)
+
+{{ $name }}
+
+@endforeach
+
+
+@dd($d)
